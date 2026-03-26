@@ -9,7 +9,7 @@ void clearScreen() {
 }
 
 void pause() {
-    cout << "\nНажмите Enter для продолжения...";
+    cout << "\n press enter";
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     cin.get();
 }
@@ -21,7 +21,7 @@ int main() {
 
     do {
         clearScreen();
-        cout << "=== БИБЛИОТЕКА (проект bibliya) ===" << endl;
+        cout << "--- bibl - ---" << endl;
         cout << "1. Добавить книгу" << endl;
         cout << "2. Удалить книгу по ISBN" << endl;
         cout << "3. Найти книгу по названию" << endl;
